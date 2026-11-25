@@ -1,6 +1,6 @@
 # ExpenseGuard — Motor de Deteccao de Anomalias em Despesas Pessoais
 
-Sistema arquitetural desenvolvido em **Java 21** e **Maven** (PUC-Campinas) aplicando **Arquitetura Hexagonal**, **SOLID**, **Clean Code**, **Padroes GoF (Strategy, Factory Method, Decorator)** e **Resiliencia (Timeout, Retry, Circuit Breaker)** sobre o dominio do Projeto Integrador.
+Sistema arquitetural desenvolvido em **Java 21** e **Maven** PUC-Campinas aplicando **Arquitetura Hexagonal**, **SOLID**, **Clean Code**, **Padroes GoF (Strategy, Factory Method, Decorator)** e **Resiliencia (Timeout, Retry, Circuit Breaker)** sobre o dominio do Projeto Integrador.
 
 ## Como Instalar, Validar e Executar
 
