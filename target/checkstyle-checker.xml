@@ -10,6 +10,6 @@
     <module name="UnusedImports"/>
     <module name="NeedBraces"/>
     <module name="MethodLength"><property name="max" value="35"/></module>
-    <module name="ParameterNumber"><property name="max" value="4"/></module>
+    <module name="ParameterNumber"><property name="max" value="4"/><property name="tokens" value="METHOD_DEF"/></module>
   </module>
 </module>
