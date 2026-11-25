@@ -1,2 +1,26 @@
-#Wed Nov 25 16:57:37 UTC 2026
-configuration*?=D4F94C2C8AA7DD4AB453208B35CA6AE1FB967AFB
+#Wed Nov 25 17:57:50 UTC 2026
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/ExpenseGuardApplication.java=1795629169288
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/application/ExpenseAnomalyService.java=1795628902412
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/decorator/AuditedDetectorDecorator.java=1795628902414
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/decorator/DetectorDecorator.java=1795628902414
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/exception/ExternalIntegrationException.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/exception/InvalidExpenseException.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/factory/DetectorFactory.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/factory/StandardProfileDetectorFactory.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/factory/StrictProfileDetectorFactory.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/AnomalyAlert.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/Expense.java=1795629055336
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/ExpenseCategory.java=1795628902414
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/RiskLevel.java=1795628902415
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/port/AlertDispatcher.java=1795628902413
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/port/ExpenseReadRepository.java=1795628902413
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/port/ExpenseWriteRepository.java=1795628902413
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/AnomalyDetectorStrategy.java=1795628902414
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/IqrOutlierDetectorStrategy.java=1795628902413
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/VelocitySpikeDetectorStrategy.java=1795628902413
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/ZScoreDetectorStrategy.java=1795628902414
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/notification/ConsoleFirebaseAlertDispatcher.java=1795628902413
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/persistence/FirebaseFirestoreExpenseAdapter.java=1795628902412
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/persistence/InMemoryExpenseRepository.java=1795629169287
+/workspaces/expense-guard-architecture/src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/resilience/ResilientAlertDispatcher.java=1795628902412
+configuration*?=C3FBE6B750CD8A992C9639889B4C320DDB7E1B6F

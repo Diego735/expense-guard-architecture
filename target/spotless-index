@@ -1,1 +1,26 @@
-ypos/9NdnyQvJcfb3r9uxspZZeYTv0Sn2qsmK+Lhuag=
+iiYJigDnwrBP3+9PC7GH0fXvvvuPk4yMj4gUvyZX6os=
+src/main/java/br/edu/puccampinas/es/expenseguard/ExpenseGuardApplication.java 2026-11-25T17:52:49.288183204Z
+src/main/java/br/edu/puccampinas/es/expenseguard/application/ExpenseAnomalyService.java 2026-11-25T17:48:22.412179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/decorator/AuditedDetectorDecorator.java 2026-11-25T17:48:22.414179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/decorator/DetectorDecorator.java 2026-11-25T17:48:22.414179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/exception/ExternalIntegrationException.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/exception/InvalidExpenseException.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/factory/DetectorFactory.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/factory/StandardProfileDetectorFactory.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/factory/StrictProfileDetectorFactory.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/AnomalyAlert.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/Expense.java 2026-11-25T17:50:55.336181430Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/ExpenseCategory.java 2026-11-25T17:48:22.414179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/model/RiskLevel.java 2026-11-25T17:48:22.415179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/port/AlertDispatcher.java 2026-11-25T17:48:22.413179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/port/ExpenseReadRepository.java 2026-11-25T17:48:22.413179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/port/ExpenseWriteRepository.java 2026-11-25T17:48:22.413179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/AnomalyDetectorStrategy.java 2026-11-25T17:48:22.414179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/IqrOutlierDetectorStrategy.java 2026-11-25T17:48:22.413179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/VelocitySpikeDetectorStrategy.java 2026-11-25T17:48:22.413179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/domain/strategy/ZScoreDetectorStrategy.java 2026-11-25T17:48:22.414179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/notification/ConsoleFirebaseAlertDispatcher.java 2026-11-25T17:48:22.413179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/persistence/FirebaseFirestoreExpenseAdapter.java 2026-11-25T17:48:22.412179049Z
+src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/persistence/InMemoryExpenseRepository.java 2026-11-25T17:52:49.287183204Z
+src/main/java/br/edu/puccampinas/es/expenseguard/infrastructure/resilience/ResilientAlertDispatcher.java 2026-11-25T17:48:22.412179049Z
+src/test/java/br/edu/puccampinas/es/expenseguard/ExpenseAnomalyServiceTest.java 2026-11-25T17:57:44.092187794Z
