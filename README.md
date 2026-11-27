@@ -34,7 +34,7 @@ O projeto isola completamente as regras de negocio de frameworks e servicos exte
 - **ISP (Interface Segregation Principle):** Operacoes de banco segregadas em `ExpenseReadRepository` (leitura de historico) e `ExpenseWriteRepository` (gravacao), evitando que detectores dependam de metodos de escrita.
 - **DIP (Dependency Inversion Principle):** A camada de aplicacao (`ExpenseAnomalyService`) depende exclusivamente de abstracoes do pacote `domain`, recebendo as implementacoes por injecao de dependencia no construtor.
 
-### Padroes de Projeto GoF
+### Padroes Projeto GoF
 1. **Strategy (`AnomalyDetectorStrategy`):** Encapsula tres algoritmos independentes de deteccao de anomalias, eliminando condicionais complexas:
    - `ZScoreDetectorStrategy`: Identifica valores que fogem drasticamente da media e do desvio padrao historico.
    - `IqrOutlierDetectorStrategy`: Detecta outliers com base no Intervalo Interquartil (Q1 e Q3), resistente a distorcoes extremas.
