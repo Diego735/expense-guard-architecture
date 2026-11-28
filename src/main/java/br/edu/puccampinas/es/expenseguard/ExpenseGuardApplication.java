@@ -1,7 +1,6 @@
 package br.edu.puccampinas.es.expenseguard;
 
 import br.edu.puccampinas.es.expenseguard.application.ExpenseAnomalyService;
-import br.edu.puccampinas.es.expenseguard.domain.decorator.AuditedDetectorDecorator;
 import br.edu.puccampinas.es.expenseguard.domain.factory.StrictProfileDetectorFactory;
 import br.edu.puccampinas.es.expenseguard.domain.model.AnomalyAlert;
 import br.edu.puccampinas.es.expenseguard.domain.model.Expense;
@@ -20,18 +19,14 @@ public class ExpenseGuardApplication {
         FirebaseFirestoreExpenseAdapter repository = new FirebaseFirestoreExpenseAdapter();
         ResilientAlertDispatcher dispatcher = new ResilientAlertDispatcher(
                 new ConsoleFirebaseAlertDispatcher(), 3, 500L, 3, Duration.ofSeconds(30));
-        List<AnomalyDetectorStrategy> detectors = new StrictProfileDetectorFactory()
-                .createDetectors()
-                .stream()
-                .map(strategy -> (AnomalyDetectorStrategy) new AuditedDetectorDecorator(strategy))
-                .toList();
+        List<AnomalyDetectorStrategy> detectors = new StrictProfileDetectorFactory().createAuditedDetectors();
         ExpenseAnomalyService service =
                 new ExpenseAnomalyService(repository, repository, dispatcher, detectors);
         seedBaselineExpenses(service);
         Expense suspicious = new Expense(
                 "exp-999",
                 "user-diego",
-                "Compra atipica eletronicos",
+                "Jantar de comemoracao fora do padrao",
                 new BigDecimal("1850.00"),
                 ExpenseCategory.ALIMENTACAO,
                 LocalDateTime.now());
