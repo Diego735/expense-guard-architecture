@@ -1,0 +1,14 @@
+# Saida do Maven (gerada no build, nao versionar)
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
